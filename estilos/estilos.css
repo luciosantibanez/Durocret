@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #004346;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header .contenedorHeader {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 50px;
+}
+header nav ul {
+  display: flex;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav a li {
+  list-style: none;
+}/*# sourceMappingURL=estilos.css.map */

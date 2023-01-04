@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #004346;
+    color: white;
+    display: flex;justify-content: space-between;
+
+    
+    
+    
+        .contenedorHeader{
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            justify-content:space-between ;
+            
+            align-items: center;
+        }
+        .logo{
+            font-size: 50px;
+        }
+
+        nav{
+            
+            ul{
+                display: flex;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                
+                
+                li{
+                    list-style: none;
+                    
+                }
+            }
+        }
+}
+
+
