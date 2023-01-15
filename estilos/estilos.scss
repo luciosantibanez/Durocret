@@ -1,3 +1,6 @@
+$colorOscuro: black ;
+$fontTitulos: 'Bakbak One', cursive;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,41 +8,51 @@
 }
 
 body{
-    background-color: tomato;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Domine', serif;
 }
 
+#hero{   
 
-h1{
-    color: rgb(255, 255, 255);
-}
+    // background-image:url(../img/durohero.jpg)  ;
+    background: url(../img/durohero1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 
-header{
+.header{
     height: 70px;
     width: 100%;
-    background-color: #004346;
+    background-color: hsla(120, 5%, 54%, 0.569);
     color: white;
-    display: flex;justify-content: space-between;
-
-    
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
     
         .contenedorHeader{
-            max-width: 1200px;
-            width: 100%;
-            display: flex;
-            justify-content:space-between ;
-            
-            align-items: center;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+
         }
         .logo{
-            font-size: 50px;
+            h2{
+            font-size: 35px;
+            font-family: 'Bakbak One', cursive; 
+            }
+            
+            
         }
 
         nav{
             
             ul{
                 display: flex;
+            }
+
+            li{
+                margin-left: 20px;
             }
 
             a{
@@ -54,5 +67,42 @@ header{
             }
         }
 }
+}
+
+main{
+    background-color:#ccc;
+
+    .nuestroTrabajo{
+        height: 600px;
+        width: 1200px;
+        margin: auto;
+
+        h3{
+            color:$colorOscuro;
+            font-family: $fontTitulos;
+            font-size: 40px;
+            text-align: center;
+            padding-top : 10px;
+        }
+        
+    }
+}
 
 
+
+
+
+
+
+footer{
+    background-color: $colorOscuro;
+    height: 50px;
+    width: 100;
+
+    .contenedorFooter{
+        max-width: 1200px;
+        margin: auto;
+        color: white;
+        
+    }
+}

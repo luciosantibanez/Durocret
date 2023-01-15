@@ -5,39 +5,72 @@
 }
 
 body {
-  background-color: tomato;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Domine", serif;
 }
 
-h1 {
-  color: rgb(255, 255, 255);
+#hero {
+  background: url(../img/durohero1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
-
-header {
+#hero .header {
   height: 70px;
   width: 100%;
-  background-color: #004346;
+  background-color: hsla(120deg, 5%, 54%, 0.569);
   color: white;
-  display: flex;
-  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.226);
 }
-header .contenedorHeader {
-  max-width: 1200px;
-  width: 100%;
+#hero .header .contenedorHeader {
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
-header .logo {
-  font-size: 50px;
+#hero .header .logo h2 {
+  font-size: 35px;
+  font-family: "Bakbak One", cursive;
 }
-header nav ul {
+#hero .header nav ul {
   display: flex;
 }
-header nav a {
+#hero .header nav li {
+  margin-left: 20px;
+}
+#hero .header nav a {
   text-decoration: none;
   color: white;
 }
-header nav a li {
+#hero .header nav a li {
   list-style: none;
+}
+
+main {
+  background-color: #ccc;
+}
+main .nuestroTrabajo {
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+}
+main .nuestroTrabajo h3 {
+  color: black;
+  font-family: "Bakbak One", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  width: 100;
+}
+footer .contenedorFooter {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
